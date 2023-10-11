@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class DoWhileCuti27 {
@@ -22,11 +23,12 @@ public class DoWhileCuti27 {
                     System.out.println("Sisa jatah cuti: " + jatahCuti);
                 } else {
                     System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                    
+                    break;
                 }
-            } else if (konfirmasi.equalsIgnoreCase("t")) {
-                break;
             }
         } while (jatahCuti > 0);
     }
 }
+    
+
+ 
