@@ -1,4 +1,5 @@
-package joobsheet13;import java.util.Scanner;
+package joobsheet13;
+import java.util.Scanner;
 
 public class Percobaan527 {
     static void Tampil(String str, int... a) {
